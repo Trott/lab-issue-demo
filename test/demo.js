@@ -16,5 +16,6 @@ describe('demo', function () {
 
 	it('should fail this test', function (done) {
 		expect(false).to.be.ok;
+		done();
 	})
 });
