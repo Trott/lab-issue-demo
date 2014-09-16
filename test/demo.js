@@ -1,3 +1,5 @@
+/*jshint expr: true*/
+
 var demo = require('../demo.js');
 
 var Lab = require('lab');
@@ -17,5 +19,5 @@ describe('demo', function () {
 	it('should fail this test', function (done) {
 		expect(false).to.be.ok;
 		done();
-	})
+	});
 });
