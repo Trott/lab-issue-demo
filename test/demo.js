@@ -13,7 +13,11 @@ describe('demo', function () {
 
 	it('should export existing()', function (done) {
 		expect(typeof demo.existing).to.equal('function');
+
+		// If you leave out the done(), lab exits immediately with a success code even though the next test should fail.
 		//done();
+
+		// If the above line is uncommented, this past succeeds and subsequent tests fail, as expected.
 	});
 
 	it('should fail this test', function (done) {
